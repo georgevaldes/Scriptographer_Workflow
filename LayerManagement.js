@@ -11,12 +11,15 @@ Hide Layers (Optional)
 Change other layers' lineweights according to name
 */
 
+//Global Variables
 var hiddenLayers = new Array();
 var foreLayers = new Array();
-var len = document.layers.length; // = 6
+var len = document.layers.length; 
 var lastLayer = len - 1;
-print(lastLayer);
+//print(lastLayer);
 
+
+//Path Styles
 var hiddenStyle = {
 	strokeColor: '#0040FF',
     fillColor: null,
@@ -24,9 +27,9 @@ var hiddenStyle = {
 };
 
 var foregroundStyle = {
-	strokeColor: '#00ff00',
+	strokeColor: '#000000',
 	fillColor: null,
-	strokeWidth: 5
+	strokeWidth: 2
 }
 
 //Search through layers and find Hidden
@@ -44,7 +47,7 @@ for (var i = 0; i < len; i++) {
 };
 
 // Take Hidden Layers and assign their paths the (hiddenStyle)
-print(hiddenLayers);
+// print(hiddenLayers);
 for (var i = 0; i < hiddenLayers.length; i++) {
 	var children = hiddenLayers[i].children;
 	
