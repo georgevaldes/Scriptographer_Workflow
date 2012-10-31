@@ -11,10 +11,15 @@ LayerManagement
 ---------------
 
 Script selects hidden layers imported from Rhino via AI file
+
 Reorders hidden layers to bottom of layer stack
+
 Assigns Layer Color to hidden layers
+
 Assigns Lineweight to hidden layers
+
 Assigns Path Color to the remaining layers
+
 Assigns Lineweight to remaining layers
 
 
