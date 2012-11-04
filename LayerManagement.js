@@ -62,7 +62,7 @@ var components = {
 			for (var i = 0; i < len; i++) {
 				var str = document.layers[i].name;
 				print(str);
-					if (str.match(/HIDDEN/gi) == "HIDDEN"){
+					if (str.match(/Hidden/gi) == "Hidden"){
 						hiddenLayers.push(document.layers[i]);
 						}	
 						else {
